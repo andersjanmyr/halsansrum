@@ -19,6 +19,15 @@
   border-radius: 5px;
 }
 
+#body_content li.hover, #body_content li.hover a {
+  background-color: #111;
+  color: white;
+}
+#body_content li a {
+  text-decoration: none;
+  color: black;
+}
+
 #body_content li img {
   float: left;
   padding: .3em;

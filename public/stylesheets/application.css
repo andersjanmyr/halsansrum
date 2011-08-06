@@ -36,7 +36,7 @@ header {
 }
 
 #body_content {
-  float: left;
+  float: right;
   width: 70%;
 }
 
@@ -72,7 +72,7 @@ br {
   float: left;
   margin-right: 10px;
 }
-#menu a, a:visited {
+#menu a, #menu a:visited {
   display: block;
   padding: 5px 10px;
   text-decoration: none;
@@ -82,19 +82,19 @@ br {
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
-#menu  a:hover {
+#menu a:hover {
     background: #111;
   }
-#menu  a:active {
+#menu a:active {
   background: #111;
   font-weight: bold;
 }
-#menu li.selected a{
+#menu li.selected a {
     background: #111;
 }
 
 #side_body_content {
-    float: right;
+    float: left;
     width: 24%;
     margin: .5em;
 }
