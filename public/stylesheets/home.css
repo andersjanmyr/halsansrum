@@ -2,3 +2,24 @@
   Override default refinery homepage styles here.
   These only apply to the homepage of your site.
 */
+
+#body_content_left li {
+  list-style-type: none;
+  clear: both;
+}
+
+#body_content_left li img {
+  float: left;
+  padding-bottom: .5em;
+}
+
+#body_content_left li div {
+  float: left;
+  margin-left: 1em;
+}
+
+#body_content_left li div * {
+  margin: 0;
+}
+
+
