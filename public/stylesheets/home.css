@@ -50,4 +50,13 @@
   margin: 0;
 }
 
+#body_content {
+  float: right;
+  width: 52%;
+}
 
+#side_body_content {
+    float: left;
+    width: 44%;
+    margin: .5em;
+}
