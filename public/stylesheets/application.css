@@ -2,3 +2,95 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+body {
+  background-color: #393;
+}
+
+#page_container {
+  margin: auto;
+  margin-top: 0;
+}
+
+header, #page {
+  background-color: white;
+  width: 799px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+} 
+
+#logo img {
+  margin-left: 1em;
+}
+#page {
+  margin-top: -2em;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 2em;
+}
+
+
+footer {
+  width: 799px;
+  color: white;
+}
+
+header div img {
+  background-color: white;
+  float: left;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+br {
+  clear: both;
+}
+
+
+#menu ul {
+  font-family: Times;
+  position: relative;
+  top: -32px;
+  list-style: none;
+  padding: 0px;
+  z-index: 10;
+  color: white;
+  margin-left: 10px;
+}
+#menu li {
+  float: left;
+  margin-right: 10px;
+}
+#menu a, a:visited {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background: #373;
+  color: white;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+#menu  a:hover {
+    background: #111;
+  }
+#menu  a:active {
+  background: #111;
+  font-weight: bold;
+}
+#menu li.selected a{
+    background: #111;
+}
+
+#body_content_right {
+    float: right;
+    height: 100%;
+    width: 24%;
+}

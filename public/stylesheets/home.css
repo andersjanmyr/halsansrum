@@ -6,16 +6,30 @@
 #body_content_left li {
   list-style-type: none;
   clear: both;
+  background-color: #7a7;
+  height: 80px;
+  width: 400px;
+  margin-bottom: .4em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #body_content_left li img {
   float: left;
-  padding-bottom: .5em;
+  padding: .3em;
+  height: 64px;
+  width: 48px;
+  margin: 4px;
 }
 
 #body_content_left li div {
   float: left;
-  margin-left: 1em;
+  padding: .3em 0;
+  margin-left: .8em;
+}
+#body_content_left li div div {
+  width: 300px;
 }
 
 #body_content_left li div * {
