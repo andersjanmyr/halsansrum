@@ -5,14 +5,16 @@
 
 #body_content ul {
   margin-top: 2em;
+  float: right;
+  margin-right: 1em;
 }
 
 #body_content li {
   list-style-type: none;
   clear: both;
-  background-color: #7a7;
+  background-color: #ddd;
   height: 80px;
-  width: 500px;
+  width: 400px;
   margin-bottom: .4em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -20,8 +22,7 @@
 }
 
 #body_content li.hover, #body_content li.hover a {
-  background-color: #111;
-  color: white;
+  background-color: #aaa;
 }
 #body_content li a {
   text-decoration: none;
