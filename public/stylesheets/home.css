@@ -3,7 +3,11 @@
   These only apply to the homepage of your site.
 */
 
-#body_content_left li {
+#body_content ul {
+  margin-top: 2em;
+}
+
+#body_content li {
   list-style-type: none;
   clear: both;
   background-color: #7a7;
@@ -15,7 +19,7 @@
   border-radius: 5px;
 }
 
-#body_content_left li img {
+#body_content li img {
   float: left;
   padding: .3em;
   height: 64px;
@@ -23,16 +27,16 @@
   margin: 4px;
 }
 
-#body_content_left li div {
+#body_content li div {
   float: left;
   padding: .3em 0;
   margin-left: .8em;
 }
-#body_content_left li div div {
+#body_content li div div {
   width: 300px;
 }
 
-#body_content_left li div * {
+#body_content li div * {
   margin: 0;
 }
 

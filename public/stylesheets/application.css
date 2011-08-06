@@ -35,6 +35,10 @@ header {
   padding-bottom: 2em;
 }
 
+#body_content {
+  float: left;
+  width: 70%;
+}
 
 footer {
   width: 799px;
@@ -89,8 +93,8 @@ br {
     background: #111;
 }
 
-#body_content_right {
+#side_body_content {
     float: right;
-    height: 100%;
     width: 24%;
+    margin: .5em;
 }
