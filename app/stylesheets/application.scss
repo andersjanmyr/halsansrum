@@ -2,6 +2,7 @@
 
 body {
   @include background-gradient(#7c7, #393);
+  font-family: Georgia, Verdana, sans-serif
 }
 
 #page_container {
@@ -32,6 +33,7 @@ header {
 #body_content {
   float: right;
   width: 70%;
+  margin: .5em .5em .5em 1em;
 }
 
 footer {
@@ -88,6 +90,6 @@ br {
 #side_body_content {
     float: left;
     width: 24%;
-    margin: .5em;
+    margin: .5em .5em .5em 1em;
 }
 
