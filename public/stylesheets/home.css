@@ -1,0 +1,49 @@
+#body_content ul {
+  margin-top: 2em;
+  float: right;
+  margin-right: 1em; }
+
+#body_content li {
+  list-style-type: none;
+  clear: both;
+  background-color: #ddd;
+  height: 80px;
+  width: 400px;
+  margin-bottom: .4em;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px; }
+
+#body_content li.hover, #body_content li.hover a {
+  background-color: #aaa; }
+
+#body_content li a {
+  text-decoration: none;
+  color: black; }
+
+#body_content li img {
+  float: left;
+  padding: .3em;
+  height: 64px;
+  width: 48px;
+  margin: 4px; }
+
+#body_content li div {
+  float: left;
+  padding: .3em 0;
+  margin-left: .8em; }
+
+#body_content li div div {
+  width: 300px; }
+
+#body_content li div * {
+  margin: 0; }
+
+#body_content {
+  float: right;
+  width: 52%; }
+
+#side_body_content {
+  float: left;
+  width: 42%;
+  margin: 1.5em .5em .5em 1em; }
