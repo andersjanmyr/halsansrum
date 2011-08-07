@@ -17,10 +17,10 @@ body {
 header, #page {
   background-color: white;
   width: 799px;
-  margin-top: 0;
   margin-bottom: 0; }
 
 header {
+  margin-top: 0;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0; }
@@ -63,11 +63,9 @@ br {
   z-index: 10;
   color: white;
   margin-left: 10px; }
-
 #menu li {
   float: left;
   margin-right: 10px; }
-
 #menu a, #menu a:visited {
   display: block;
   padding: 5px 10px;
@@ -77,14 +75,11 @@ br {
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0; }
-
 #menu a:hover {
   background: #111; }
-
 #menu a:active {
   background: #111;
   font-weight: bold; }
-
 #menu li.selected a {
   background: #111; }
 
@@ -92,7 +87,3 @@ br {
   float: left;
   width: 24%;
   margin: .5em .5em .5em 1em; }
-
-.clear {
-  clear: both;
-}

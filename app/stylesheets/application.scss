@@ -13,13 +13,12 @@ body {
 header, #page {
   background-color: white;
   width: 799px;
-  margin-top: 0;
   margin-bottom: 0;
 }
 
 header {
-  @include border-radius(10px, 10px, 0, 0);
-} 
+  margin-top: 0;
+  @include border-radius(10px, 10px, 0, 0); } 
 
 #logo img {
   margin-left: 1em;
@@ -54,39 +53,40 @@ br {
 }
 
 
-#menu ul {
-  font-family: Times;
-  position: relative;
-  top: -32px;
-  list-style: none;
-  padding: 0px;
-  z-index: 10;
-  color: white;
-  margin-left: 10px;
-}
-#menu li {
-  float: left;
-  margin-right: 10px;
-}
-#menu a, #menu a:visited {
-  display: block;
-  padding: 5px 10px;
-  text-decoration: none;
-  background: #373;
-  color: white;
-  @include border-radius(5px, 5px, 0, 0);
-}
-#menu a:hover {
+#menu {
+  ul {
+    font-family: Times;
+    position: relative;
+    top: -32px;
+    list-style: none;
+    padding: 0px;
+    z-index: 10;
+    color: white;
+    margin-left: 10px;
+  }
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+  a, a:visited {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: #373;
+    color: white;
+    @include border-radius(5px, 5px, 0, 0);
+  }
+  a:hover {
     background: #111;
   }
-#menu a:active {
-  background: #111;
-  font-weight: bold;
-}
-#menu li.selected a {
+  a:active {
     background: #111;
+    font-weight: bold;
+  }
+  li.selected a {
+    background: #111;
+  }
 }
-
 #side_body_content {
     float: left;
     width: 24%;
