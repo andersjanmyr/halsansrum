@@ -59,5 +59,6 @@ end
 gem 'refinerycms-i18n',         '~> 1.0.0'
 gem 'fog'
 gem 'dalli'
+gem 'sass'
 
 # END USER DEFINED

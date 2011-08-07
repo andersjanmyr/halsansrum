@@ -1,7 +1,5 @@
-/*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
-*/
+@import "mixins.scss";
+
 body {
   background-color: #393;
 }
@@ -19,9 +17,7 @@ header, #page {
 }
 
 header {
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0;
+  @include border-radius(10px, 10px, 0, 0);
 } 
 
 #logo img {
@@ -29,9 +25,7 @@ header {
 }
 #page {
   margin-top: -2em;
-  -webkit-border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px;
+  @include border-radius(0, 0, 10px, 10px);
   padding-bottom: 2em;
 }
 
@@ -78,9 +72,7 @@ br {
   text-decoration: none;
   background: #373;
   color: white;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
+  @include border-radius(5px, 5px, 0, 0);
 }
 #menu a:hover {
     background: #111;
@@ -98,3 +90,4 @@ br {
     width: 24%;
     margin: .5em;
 }
+

@@ -1,7 +1,4 @@
-/*
-  Override default refinery homepage styles here.
-  These only apply to the homepage of your site.
-*/
+@import "mixins.scss";
 
 #body_content ul {
   margin-top: 2em;
@@ -16,9 +13,7 @@
   height: 80px;
   width: 400px;
   margin-bottom: .4em;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  @include sym-border-radius(5px)
 }
 
 #body_content li.hover, #body_content li.hover a {
@@ -60,3 +55,4 @@
     width: 44%;
     margin: .5em;
 }
+
