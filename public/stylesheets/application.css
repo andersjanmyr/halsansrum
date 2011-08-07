@@ -1,3 +1,4 @@
+@import url('refinery/application.css');
 body {
   background: #339933;
   background: -webkit-gradient(linear, left top, left bottom, from(#77cc77), to(#339933));
